@@ -1,0 +1,9 @@
+@tailwind  base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  .no-print { display: none !important; }
+  .resume-preview { box-shadow: none !important; margin: 0 !important; }
+}
+ 
